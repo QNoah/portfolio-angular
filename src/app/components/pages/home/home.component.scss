@@ -1,0 +1,32 @@
+.home-landing {
+  padding-top: 250px;
+  background: linear-gradient(rgba(0, 0, 0, 0.414), rgba(0, 0, 0, 0.414)), url('/assets/background.jpg');
+  overflow: hidden;
+  min-height: 700px;
+  .name {
+    margin-left: 200px;
+    width: 700px;
+    h1 {
+      font-size: 12em;
+      color: white;
+      margin: 0;
+      line-height: 80%;
+    }
+    .name-function {
+      margin-left: 20px;
+
+      h2 {
+        font-size: 4em;
+        color: white;
+        margin: 0;
+        margin-top: 10px;
+        color: purple;
+      }
+      p{
+        color: white;
+        margin: 0;
+        font-size: 1.6em;
+      }
+    }
+  }
+}
