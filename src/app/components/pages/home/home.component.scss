@@ -1,8 +1,12 @@
+* {
+  color: white;
+}
 .home-landing {
   padding-top: 250px;
-  background: linear-gradient(rgba(0, 0, 0, 0.414), rgba(0, 0, 0, 0.414)), url('/assets/background.jpg');
+  background: linear-gradient(rgba(0, 0, 0, 0.414), rgba(0, 0, 0, 0.414)),
+    url("/assets/background.jpg");
   overflow: hidden;
-  min-height: 700px;
+  min-height: 800px;
   .name {
     margin-left: 200px;
     width: 700px;
@@ -14,7 +18,10 @@
     }
     .name-function {
       margin-left: 20px;
-
+      .wrapper {
+        display: flex;
+        align-items: center;
+      }
       h2 {
         font-size: 4em;
         color: white;
@@ -22,11 +29,23 @@
         margin-top: 10px;
         color: purple;
       }
-      p{
+      p {
         color: white;
         margin: 0;
         font-size: 1.6em;
       }
     }
   }
+  nav { margin-top: 10px;
+    a {
+      margin-right: 15px;
+    }
+  }
+}
+.cursus{
+  padding: 100px;
+  // background: linear-gradient(rgba(0, 0, 0, 0.414), rgba(0, 0, 0, 0.414)),
+  //   url("/assets/cursus.jpg");
+  background: linear-gradient(#4d1092, #525a6c);
+    min-height: 500px;
 }

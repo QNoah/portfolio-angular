@@ -1,0 +1,90 @@
+<div
+  class="skills-container"
+  (mouseenter)="progressShown()"
+  (mouseleave)="reset()"
+>
+  <div class="skills-intro">
+    <div class="title-wrapper">
+      <h1>My Skills</h1>
+      <mat-icon fontIcon="emoji_events" color="accent"></mat-icon>
+    </div>
+    <div class="title-paragraph">
+      <p>
+        "Skills & Expertise: Quinten is well-versed in a range of technologies,
+        including TypeScript, Sass, and Angular. Explore the details of his
+        technical proficiency."
+      </p>
+      <p>More skills you can find here:</p>
+    </div>
+  </div>
+  <div class="skills-wrapper">
+    <mat-card>
+      <div class="skills">
+        <h3>Angular</h3>
+        <p>
+          "Angular Proficiency: Although not a seasoned expert, Quinten has
+          continuously honed his skills in Angular since its introduction during
+          his internship. His dedication and persistent use of Angular have made
+          it a staple in his development toolkit."
+        </p>
+        <mat-progress-bar
+          mode="determinate"
+          [value]="angularProgressbar_value"
+          color="primary"
+        ></mat-progress-bar>
+        <p>{{ angularProgressbar_value }} % Knowledge</p>
+      </div>
+    </mat-card>
+    <mat-card>
+      <div class="skills">
+        <h3>SCSS</h3>
+        <p>
+          "SCSS: Quinten appreciates SCSS as a powerful tool in his web
+          development arsenal. Not only does it simplify complex CSS structures,
+          but it also streamlines code, making it more concise and maintainable.
+          Quinten values SCSS for its ability to enhance code readability and
+          reduce redundancy, ultimately contributing to more efficient and
+          organized web projects."
+        </p>
+        <mat-progress-bar
+          mode="determinate"
+          [value]="scssProgressbar_value"
+        ></mat-progress-bar>
+        <p>{{ scssProgressbar_value }} % Knowledge</p>
+      </div>
+    </mat-card>
+    <mat-card>
+      <div class="skills">
+        <h3>HTML</h3>
+        <p>
+          Discover Quinten's expertise in HTML, the foundation of the web. With
+          an intricate understanding of this markup language, he crafts the
+          skeleton of web pages, ensuring they are well-structured and
+          semantically sound. Quinten's commitment to clean, efficient HTML
+          results in user-friendly and accessible web experiences. Delve deeper
+          into his HTML proficiency below.
+        </p>
+        <mat-progress-bar
+          mode="determinate"
+          [value]="htmlProgressbar_value"
+        ></mat-progress-bar>
+        <p>{{ htmlProgressbar_value }} % Knowledge</p>
+      </div>
+    </mat-card>
+    <mat-card>
+      <div class="skills">
+        <h3>Typescript</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate
+          tempore sequi voluptas distinctio laboriosam ea autem amet et quia
+          voluptatibus.
+        </p>
+        <mat-progress-bar
+          mode="determinate"
+          [value]="tsProgressbar_value"
+        ></mat-progress-bar>
+        <p>{{ tsProgressbar_value }} % Knowledge</p>
+      </div>
+    </mat-card>
+  </div>
+</div>

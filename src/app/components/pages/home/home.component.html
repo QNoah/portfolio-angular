@@ -2,7 +2,15 @@
   <div class="name">
     <h1>Quinten</h1>
     <div class="name-function">
-      <h2>Webdeveloper</h2>
+      <div class="wrapper">
+        <h2>Webdeveloper</h2>
+        <mat-icon
+          aria-hidden="false"
+          aria-label="Example home icon"
+          fontIcon="check_circle"
+          color="accent"
+        ></mat-icon>
+      </div>
       <p>Proficient in TypeScript, Sass, and Angular.</p>
       <p>
         Skilled in creating responsive and visually appealing web interfaces.
@@ -11,13 +19,13 @@
         Stays informed about the latest advancements in web development
         technologies and practices.
       </p>
+      <app-navigation></app-navigation>
     </div>
-    <mat-icon
-      aria-hidden="false"
-      aria-label="Example home icon"
-      fontIcon="home"
-      color="accent"
-    ></mat-icon>
   </div>
 </div>
-<div class="skills-container"></div>
+<app-skills></app-skills>
+<div class="cursus">
+  <h1>Cursus</h1>
+  <p>It is never bad to learn more then you know, that is why I kept learning.</p>
+</div>
+<app-footer></app-footer>

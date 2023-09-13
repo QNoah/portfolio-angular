@@ -1,0 +1,54 @@
+.skills-container {
+    background: linear-gradient(#3f2962 , #253968) ;
+    min-height: 1000px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 60px;
+    font-size: 1.6em;
+    .skills-wrapper {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+    }
+    .skills-intro {
+      padding-bottom: 50px;
+      .title-paragraph {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+      }
+      h1 {
+        margin-right: 5px;
+      }
+      p {
+        margin: 0;
+      }
+    }
+    .title-wrapper {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .skills {
+      display: grid;
+      place-items: center;
+      mat-progress-bar {
+        width: 400px;
+      }
+      p {
+        display: flex;
+        justify-content: center;
+        height: 100px;
+      }
+    }
+  }
+  mat-card {
+    background: linear-gradient(#4d1092, #525a6c);
+    border: 1px solid rgb(176, 176, 176);
+  }
+  mat-card:second-child {
+    border: 2px solid black;
+  }
+  mat-progress-bar {
+    background: white;
+  }
