@@ -1,6 +1,5 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
@@ -17,6 +16,7 @@ import { AboutComponent } from './components/pages/about/about.component';
 import { ContactComponent } from './components/pages/contact/contact.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { SkillsComponent } from './components/pages/home/skills/skills.component';
+import { CarouselModule } from 'ngx-owl-carousel-o';
 
 @NgModule({
   declarations: [AppComponent, HeaderComponent, HomeComponent, ProjectsComponent, NavigationComponent, PageNotFoundComponent, AboutComponent, ContactComponent, FooterComponent, SkillsComponent, ],
@@ -28,6 +28,7 @@ import { SkillsComponent } from './components/pages/home/skills/skills.component
     MatProgressBarModule,
     MatCardModule,
     MatButtonModule,
+    CarouselModule,
   ],
   providers: [],
   bootstrap: [AppComponent],

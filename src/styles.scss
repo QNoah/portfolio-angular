@@ -1,14 +1,13 @@
+@import 'ngx-owl-carousel-o/lib/styles/scss/owl.carousel';
+@import 'ngx-owl-carousel-o/lib/styles/scss/owl.theme.default';
+
 *{
   font-family: "Montserrat", sans-serif;
 }
 body{
   margin: 0;
   padding: 0;
-  // background: linear-gradient(rgba(0, 0, 0, 0.414), rgba(0, 0, 0, 0.414)), url('./assets/background.jpg');
-  // overflow: hidden;
 }
 html{
   font-size: 62.5%;
 }
-// html, body { height: 100%; }
-// body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
